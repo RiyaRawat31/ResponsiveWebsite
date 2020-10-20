@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- using CDN completely -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- my class for bckgrnd image -->
+    <div class="bgimg">
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!--  DIV container FOR LOGO -->
+            <div class="container">
+
+                <a href="#" class="navbar-brand text-warning font-weight-bold">RIYA TECHNICAL</a>
+                <!-- Toggle button on screen size medium -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                    <span class="navabar-toggler-icon"> </span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">ABOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container text-center text-white headerset ">
+            <h2> Welcome To My Studio </h2>
+            <h1>"Good company in a journey makes the way seem shorter." </h1>
+            <button class="btn btn-warning text-white btn-lg">SUBSCRIBE</button>
+        </div>
+
+    </div>
+
+    <!-- page 2 -->
+    <!-- ------------------ ourservices read o=more..---------------- -->
+    <section class="container text-center ourservices ">
+        <h1>SERVICES</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+        <!-- creating  grid for this, so we know why row, we have to create a row first -->
+        <div class="row rowsetting">
+
+
+
+            <!-- ------------ we'll use font awesome for the logos ------------- -->
+
+            <!-- Cart Logo section -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <!-- we'll use font awesome for the cart logo -->
+                <div class="imgsetting bg-warning d-block m-auto">
+                    <i class="fa fa-shopping-cart fa-4x text-white" aria-hidden="true"></i>
+                </div>
+                <h2>E-commerce</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe similique nisi consequatur
+                    sapiente esse? Lorem ipsum dolor sit amet.</p>
+            </div>
+
+
+            <!-- Responive design logo section -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <!-- we'll use font awesome for the cart logo -->
+                <div class="imgsetting bg-warning d-block m-auto">
+                    <i class="fa fa-tablet fa-4x text-white" aria-hidden="true"></i>
+                </div>
+                <h2>Responive design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe similique nisi consequatur
+                    sapiente esse? Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <!-- Web Security Logo section  -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+
+                <div class="imgsetting bg-warning d-block m-auto">
+                    <i class="fa fa-lock fa-4x text-white" aria-hidden="true"></i>
+                </div>
+                <h2>Web Security</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe similique nisi consequatur
+                    sapiente esse? Lorem ipsum dolor sit amet.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ---------------------------- page 3 ---------------------------------- -->
+    <!-- -----------portfolio ------------------------------ -->
+    <section class="portfolio bg-light">
+        <div class="container text-center">
+            <h1>PORTFOLIO</h1>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+
+            <!-- row 1 of cards -->
+            <div class="row">
+                <!-- card 1 -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/photo-1483058712412-4245e9b90334.jpg" class="card-img img-fluid" alt="sky">
+                        <div class="cardbody">
+                            <h2 class="card-title">Threads</h2>
+                            <p class="card-text">Illustration</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/app4.jpg" class="card-img img-fluid" alt="sky">
+                        <div class="cardbody">
+                            <h2 class="card-title">Threads</h2>
+                            <p class="card-text">Illustration</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/photo-1502945015378-0e284ca1a5be.jpg" class="card-img img-fluid" alt="sky">
+                        <div class="cardbody">
+                            <h2 class="card-title">Threads</h2>
+                            <p class="card-text">Illustration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 of cards -->
+            <div class="row">
+                <!-- card 1 -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/photo-1502945015378-0e284ca1a5be.jpg" class="card-img img-fluid" alt="sky">
+                        <div class="cardbody">
+                            <h2 class="card-title">Threads</h2>
+                            <p class="card-text">Illustration</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/photo-1483058712412-4245e9b90334.jpg" class="card-img img-fluid" alt="sky">
+                        <div class="cardbody">
+                            <h2 class="card-title">Threads</h2>
+                            <p class="card-text">Illustration</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card">
+                        <img src="images/app4.jpg" class="card-img img-fluid" alt="sky">
+                        <div class="cardbody">
+                            <h2 class="card-title">Threads</h2>
+                            <p class="card-text">Illustration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
